@@ -9,6 +9,7 @@
 - 💬 Ask me about **Frontend**
 
 - 📫 How to reach me **rmlmanik502@gmail.com**
+- 📫 How to reach me **WhatsApp:** **01329335954**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
