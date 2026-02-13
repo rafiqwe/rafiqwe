@@ -7,7 +7,7 @@
 
 - 💬 Ask me about **Frontend**
 - 💬 Ask me about **Backend**
-- 📫 Portfolio website **https://muhammadrabbi.vercel.app
+- 📫 Portfolio website **https://muhammadrabbi.vercel.app**
 - 📫 How to reach me **muhammedrabbi.dev@gmail.com**
 - 📫 How to reach me **WhatsApp:** **01329335954**
 
