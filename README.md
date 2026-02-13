@@ -4,11 +4,11 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rafiqwe&label=Profile%20views&color=0e75b6&style=flat" alt="rafiqwe" /> </p>
 <img align="right" alt="Coding" width="400" src="https://cdnb.artstation.com/p/assets/images/images/028/991/999/original/anna-havrylyukh-.gif?1596125112">
 
-- 🌱 I’m currently learning **Node.js**
 
 - 💬 Ask me about **Frontend**
-
-- 📫 How to reach me **muhammadrabbi.dev@gmail.com**
+- 💬 Ask me about **Backend**
+- 📫 Portfolio website **https://muhammadrabbi.vercel.app
+- 📫 How to reach me **muhammedrabbi.dev@gmail.com**
 - 📫 How to reach me **WhatsApp:** **01329335954**
 
 <h3 align="left">Connect with me:</h3>
