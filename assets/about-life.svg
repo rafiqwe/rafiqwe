@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 580" role="img" aria-label="Muhammad Rabbi GitHub profile graphic">
+<defs>
+  <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#247bff"/><stop offset="1" stop-color="#ff354f"/></linearGradient>
+  <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#247bff" stop-opacity=".20"/><stop offset="1" stop-color="#ff354f" stop-opacity=".12"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  
+</defs>
+<style><![CDATA[
+
+  :root { color-scheme: dark; }
+  .display { font-family: "Arial Black", "Segoe UI", Arial, sans-serif; font-weight: 900; letter-spacing: -1px; }
+  .sans { font-family: "Segoe UI", Arial, sans-serif; }
+  .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+  .muted { fill: #8ea0bb; }
+  .white { fill: #f3f6fb; }
+  .blue { fill: #247bff; }
+  .red { fill: #ff354f; }
+  .hair { stroke: url(#hair); stroke-width: 1.2; fill: none; }
+  .dot { fill: #247bff; opacity: .34; }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; }
+    .motion-hide { display:none !important; }
+  }
+
+
+  .slide { opacity:0; animation: slides 12s linear infinite; }
+  .slide.s1 { opacity:1; }
+  .s1{animation-delay:0s}.s2{animation-delay:4s}.s3{animation-delay:8s}
+  @keyframes slides { 0%{opacity:0;transform:translateY(8px)} 8%,25%{opacity:1;transform:translateY(0)} 31%,100%{opacity:0;transform:translateY(-6px)} }
+  .prog { transform-origin:left center; animation: prog 4s linear infinite; }
+  .p2{animation-delay:4s}.p3{animation-delay:8s}
+  @keyframes prog { 0%{transform:scaleX(0);opacity:.9} 90%{transform:scaleX(1);opacity:.9} 100%{transform:scaleX(1);opacity:0} }
+  .cap { animation: capIn .7s ease both; }
+  .c2{animation-delay:.1s}.c3{animation-delay:.2s}.c4{animation-delay:.3s}.c5{animation-delay:.4s}.c6{animation-delay:.5s}
+  @keyframes capIn { from{opacity:0;transform:translateX(-12px)} to{opacity:1;transform:none} }
+  @media (prefers-reduced-motion: reduce){.slide{opacity:0!important}.s1{opacity:1!important}.prog{transform:scaleX(1)!important}.cap{opacity:1!important;transform:none!important}}
+
+]]></style>
+
+<rect width="1200" height="580" rx="32" fill="#070b16"/>
+<rect x="1" y="1" width="1198" height="578" rx="31" class="hair" opacity=".7"/>
+<text x="68" y="72" class="mono blue" font-size="15">ABOUT // LIFE</text>
+<text x="68" y="108" class="display white" font-size="36">WHAT I BUILD</text>
+<g class="cap c1"><rect x="68" y="116" width="548" height="54" rx="15" fill="#0d1525" stroke="#1b2a45"/><text x="90" y="150" class="mono blue" font-size="14">01</text><text x="132" y="146" class="sans white" font-size="17" font-weight="700">FULL-STACK DEVELOPMENT</text><text x="132" y="166" class="sans muted" font-size="13">Frontend + backend systems</text></g><g class="cap c2"><rect x="68" y="182" width="548" height="54" rx="15" fill="#0d1525" stroke="#1b2a45"/><text x="90" y="216" class="mono blue" font-size="14">02</text><text x="132" y="212" class="sans white" font-size="17" font-weight="700">WEB APPLICATIONS</text><text x="132" y="232" class="sans muted" font-size="13">Modern responsive products</text></g><g class="cap c3"><rect x="68" y="248" width="548" height="54" rx="15" fill="#0d1525" stroke="#1b2a45"/><text x="90" y="282" class="mono blue" font-size="14">03</text><text x="132" y="278" class="sans white" font-size="17" font-weight="700">MOBILE DEVELOPMENT</text><text x="132" y="298" class="sans muted" font-size="13">Cross-platform apps with Flutter</text></g><g class="cap c4"><rect x="68" y="314" width="548" height="54" rx="15" fill="#0d1525" stroke="#1b2a45"/><text x="90" y="348" class="mono blue" font-size="14">04</text><text x="132" y="344" class="sans white" font-size="17" font-weight="700">BACKEND &amp; APIs</text><text x="132" y="364" class="sans muted" font-size="13">Node.js, Express &amp; FastAPI</text></g><g class="cap c5"><rect x="68" y="380" width="548" height="54" rx="15" fill="#0d1525" stroke="#1b2a45"/><text x="90" y="414" class="mono blue" font-size="14">05</text><text x="132" y="410" class="sans white" font-size="17" font-weight="700">REAL-TIME SYSTEMS</text><text x="132" y="430" class="sans muted" font-size="13">Socket.IO-driven experiences</text></g><g class="cap c6"><rect x="68" y="446" width="548" height="54" rx="15" fill="#0d1525" stroke="#1b2a45"/><text x="90" y="480" class="mono blue" font-size="14">06</text><text x="132" y="476" class="sans white" font-size="17" font-weight="700">AI-ASSISTED DEV</text><text x="132" y="496" class="sans muted" font-size="13">Smarter product workflows</text></g>
+<rect x="670" y="92" width="462" height="420" rx="26" fill="#0d1525" stroke="#22334f"/>
+<text x="710" y="136" class="mono red" font-size="14">OFF THE MAIN BRANCH</text>
+<g class="slide s1"><text x="710" y="220" class="display white" font-size="58">BUILD.</text><text x="710" y="265" class="sans muted" font-size="18">Turning ideas into working side projects.</text><path d="M710 316h308" stroke="#247bff" stroke-width="2" opacity=".35"/><text x="710" y="356" class="mono blue" font-size="14">SHIP → LEARN → ITERATE</text></g>
+<g class="slide s2"><text x="710" y="220" class="display white" font-size="58">EXPLORE.</text><text x="710" y="265" class="sans muted" font-size="18">Experimenting with AI-assisted development.</text><path d="M710 316h308" stroke="#ff354f" stroke-width="2" opacity=".35"/><text x="710" y="356" class="mono red" font-size="14">PROMPT → PROTOTYPE → PRODUCT</text></g>
+<g class="slide s3"><text x="710" y="220" class="display white" font-size="58">LEARN.</text><text x="710" y="265" class="sans muted" font-size="18">Learning and sharing modern technologies.</text><path d="M710 316h308" stroke="#247bff" stroke-width="2" opacity=".35"/><text x="710" y="356" class="mono blue" font-size="14">READ → BUILD → SHARE</text></g>
+<g transform="translate(710 448)"><rect width="118" height="5" rx="3" fill="#1b2940"/><rect width="118" height="5" rx="3" fill="#247bff" class="prog p1"/><rect x="132" width="118" height="5" rx="3" fill="#1b2940"/><rect x="132" width="118" height="5" rx="3" fill="#ff354f" class="prog p2"/><rect x="264" width="118" height="5" rx="3" fill="#1b2940"/><rect x="264" width="118" height="5" rx="3" fill="#247bff" class="prog p3"/></g>
+<text x="710" y="490" class="mono muted" font-size="12">01 BUILD   //   02 EXPLORE   //   03 LEARN + SHARE</text>
+
+</svg>
